@@ -1,0 +1,13 @@
+GIT
+
+borrar rama local:
+
+git branch --delete Rama-Name
+
+borrar del remoto:
+
+git push origin -d Rama-Name
+
+BIBLIOGRAFIA:
+Libro:
+HTML, CSS, 

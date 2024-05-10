@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TABLA</title>
+</head>
+<body>
+  <table border="1">
+    <thead>Mi primera tabla
+      <th>Nombre</th>
+      <th>Apellidos</th>
+      <th>Correo</th>
+      <th>Telefono</th>
+      <th colspan="2">Modificar</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Julio</td>
+        <td>Vargas</td>
+        <td>Test@email.com</td>
+        <td>2222222222</td>
+        <td>
+          <form action="editar" method="get">
+            <button type="submit">Editar</button>    
+            <input type="text" value="1" hidden>
+          </form>
+        </td>
+        <td>
+          <form action="eliminar" method="get">
+            <button>Eliminar</button>
+            <input type="text" value="1" hidden>
+            </td>
+
+          </form>
+      </tr>
+      <tr>
+        <td>Jhon</td>
+        <td>Becerra</td>
+        <td>no@email.com</td>
+        <td>1111111111</td>
+        <td>
+          <form action="editar" method="get">
+            <button type="submit">Editar</button>    
+            <input type="text" value="2" hidden>
+          </form>
+        </td>
+        <td>
+          <form action="eliminar" method="get">
+            <button>Eliminar</button>
+            <input type="text" value="2" hidden>
+            </td>
+
+          </form>
+
+      </tr>
+      <tr>
+        <td>Doncan</td>
+        <td>Compa</td>
+        <td>compa@ejemlo.com</td>
+        <td>3333333333</td>
+        <td>
+          <form action="editar" method="get">
+            <button type="submit">Editar</button>    
+            <input type="text" value="3" hidden>
+          </form>
+        </td>
+        <td>
+          <form action="eliminar" method="get">
+            <button>Eliminar</button>
+            <input type="text" value="3" hidden>
+          </form>
+        </td>
+
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="6">xd</th>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
