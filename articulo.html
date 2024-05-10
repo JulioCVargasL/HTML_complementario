@@ -28,12 +28,13 @@
     </section>
     <section>
       <h1>Deje su comentario</h1>
-      <form action="controlador" method="post">
+      <!-- form es formulario -->
+      <form action="controlador" method="post" enctype="multipart/form-data" name="formulario">
         <div>
           <input type="text" maxlength="40" minlength="10" value="Julio Vargas" placeholder="Ingresa tu nombre" readonly>
         </div>
         <div>
-          <input type="email" placeholder="e-mail">
+          <input type="email" placeholder="e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
         </div>
         <div>
           
@@ -44,9 +45,34 @@
           <textarea name="contenido" id="contenido" cols="20" rows="5" required placeholder="Tu comentario">Contenido predefinido se pone aquí</textarea>
         </div>
         <div>
-          <button type="submit">ENVIAR</button>
+          <!-- si ponemos el mismo nombre solo se podra seleccionar una opcion -->
+         <input type="radio" name="genero"> Hombre 
+         <input type="radio" name="genero"> Mujer 
+         <input type="radio" name="other"> Y aveces camello 
+        </div>
+        <div>
+          <input type="checkbox" name="custom">1
+          <input type="checkbox" name="custom">2
+          <input type="checkbox" name="custom">3
+          <input type="checkbox" name="custom">4
+        </div>
+        <div>
+          <select name="ciudad" id="ciudad">
+            <option value="1">Floridablanca</option>
+            <option value="1">Bucaramanga</option>
+            <option value="1">Giron</option>
+            <option value="1">Piedecuesta</option>
+
+          </select>
+        </div>
+        <div>
+          <button type="radio">Hola
+          </button>
         </div>
       </form>
+      <div>
+        <input type="text" placeholder="por fuera" form="formulario">
+      </div>
     </section>
   </main>
 </body>
