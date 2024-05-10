@@ -29,12 +29,13 @@
     <section>
       <h1>Deje su comentario</h1>
       <!-- form es formulario -->
-      <form action="controlador" method="post" enctype="multipart/form-data" name="formulario">
+      <!-- method GET mostarar en el campo de URL todos los inputs que tengan name, similar sucede con el metodo POST pero "encriptado" -->
+      <form action="controlador" method="get" enctype="multipart/form-data" name="formulario" autocomplete="off" novalidate>
         <div>
           <input type="text" maxlength="40" minlength="10" value="Julio Vargas" placeholder="Ingresa tu nombre" readonly>
         </div>
         <div>
-          <input type="email" placeholder="e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <input type="email" placeholder="e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="Holiii">
         </div>
         <div>
           
@@ -71,7 +72,7 @@
         </div>
       </form>
       <div>
-        <input type="text" placeholder="por fuera" form="formulario">
+        <input type="text" placeholder="por fuera" form="formulario" autofocus>
       </div>
     </section>
   </main>
