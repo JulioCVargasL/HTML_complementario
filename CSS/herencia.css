@@ -1,0 +1,15 @@
+p{
+  color: brown;
+}
+.color{
+  color: violet;
+}
+#negro{
+  color: black;
+}
+div p{
+  color: red;
+}
+p.color{
+  color: chartreuse;
+}

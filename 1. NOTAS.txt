@@ -11,3 +11,11 @@ git push origin -d Rama-Name
 BIBLIOGRAFIA:
 Libro:
 HTML, CSS, 
+
+CSS
+¿Qué es un selector?
+Los selectores CSS son herramientas utilizadas para definir el estilo que quieres dar a tus elementos en CSS. Existen muchos tipos de selectores en este lenguaje, cada uno con su propia sintaxis y utilidad. El uso de las reglas de programación correctas ayuda al explorador a aplicar propiedades específicas a los elementos indicados.
+
+"El asterisco (*) es el selector universal en CSS. De forma automática, el asterisco selecciona todos los elementos en un documento."
+
+"Sintaxis del selector universalUn selector universal puede tener cualquiera de las siguientes sintaxis:

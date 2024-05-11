@@ -1,0 +1,72 @@
+
+/* selector universal */
+*{
+  margin: 0PX;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* tipo */
+body{
+  font-size: 22px;
+  color: white;
+  background-color: bisque;
+}
+/* clase */
+.titulo{
+  color: blue;
+}
+/* id */
+#subtitulo{
+  color: blue;
+}
+a[href]{
+  color: blue;
+}
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: blue;
+}
+div p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: blue;
+}
+div+p, span{
+  color: blue;
+}
+.caja{
+  height: 90px;
+  width: 200px;
+  background-color: brown;
+  padding: 20PX;
+  border: double 10px rgb(255, 128, 0);
+  border-radius: 20px 10px;
+  margin: 10px;
+  /* display: block; lo podemos usar para modificar las etiquetas en linea  */
+  /* margin-top: 12px;
+  margin-right: 3px;
+  margin-bottom: 6px;
+  margin-left: 9px; */
+  /* margin: 12px 3px 6px 9px; */
+  /* margin: 12px 5px; */
+  margin: 12px 10px 3px;
+  /* padding-top: 12px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 5px; */
+  /* padding: 10px 15px; */
+  /* padding: 12px 8px 3px; */
+  padding: 5px;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+.herencia{
+  font-size: 24px;
+  color: steelblue;
+}
+.parrafo{
+  color: red;
+}
