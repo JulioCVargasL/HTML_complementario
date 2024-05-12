@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.caja{
+  width: 400px;
+  height: 400px;
+  background-color: brown;
+  margin: 0px auto;
+  border-radius: 24px 15px 10px 5px;
+  border-radius: 50px 10px 15px;
+  border-radius: 10px 50px;
+  border-radius: 100px;
+  border-radius: 50%;
+  border-radius: 60% 20%;
+  border:  solid 7px red;
+  box-shadow: 100px 100px 100px black;
+}
+hr{
+  margin: 80px;
+  
+}
+.goku{
+  display: flex;
+  margin: 0px auto;
+  height: 400px;
+  filter: drop-shadow(20px -10px 20px yellow) ;
+}
