@@ -24,5 +24,7 @@ hr{
   display: flex;
   margin: 0px auto;
   height: 400px;
-  filter: drop-shadow(20px -10px 20px yellow) ;
+  filter: drop-shadow(20px -10px 20px yellow) 
+  drop-shadow(20px -10px 20px rgb(75, 75, 221))
+  drop-shadow(20px -10px 20px rgb(242, 66, 72));
 }
