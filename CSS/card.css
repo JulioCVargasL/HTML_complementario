@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hr{
+  margin: auto;
+  color: #a60909;
+  border: solid 1px;
+}
+.galeria{
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+body{
+  background: #f2f2f2;
+  font-family: "Jaro",sans-serif;
+}
+img{
+  width: 280px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  filter: drop-shadow(1px -1px 10px black)
+
+}
+.personajes{
+  padding: 20px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card{
+  padding: 0 0 30px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: solid 1px brown;
+  width: 360px;
+  /* box-shadow: 10px 10px 10px black; */
+  display: inline-block;
+  
+}
+.contenedor{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.titulo{
+  color: #a60909;
+  margin: 20px 0 10px;
+}
+.button, a{
+  padding: 0 13px;
+  border-radius: 5px;
+  background-color: white;
+  color: #a60909;
+  width: 150px;
+  margin-top: 20px;
+  text-decoration: none;
+  height: 30px;
+ 
+}
+
+

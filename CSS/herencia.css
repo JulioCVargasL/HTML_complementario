@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 p{
   color: brown;
 }
@@ -12,4 +17,28 @@ div p{
 }
 p.color{
   color: chartreuse;
+}
+.header{
+  padding: 45px 0;
+  color: rgb(21, 39, 234);
+  background-color: blueviolet;
+  background-image: linear-gradient(rgb(49, 43, 226) 40%, yellow );
+  font-size: 2rem;
+}
+.titulo{
+  /* width: 200px; */
+  margin: auto ;
+  display: block;
+  text-align: center;
+  /* font-size: 100px; */
+  /* font-size: 1rem; rem toma el valor base del size y lo multiplica segun el valor que se coloca*/
+  background-color: rgba(166, 255, 0, 0.391) ;
+  width: 50%;
+}
+body{
+
+  font-size: 20px;
+  background-color: rgba(0, 0, 255, 0.175);
+  /* background-image: url(../imagen/Stitch-HD-removebg-preview.png); */
+
 }
