@@ -67,3 +67,6 @@ body{
   font-size: 1.2rem;
   color: var(--color2);
 }
+.form__submit{
+  width: var(--);
+}

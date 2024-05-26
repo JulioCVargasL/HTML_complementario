@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+  --gradient1: linear-gradient(to right, #fa70995d 0%, #fee14057 100%);
+  --gradient2: linear-gradient(to top, #30d0d074 0%, #3308677d 100%);
+  --url-img: url("../imagen/bg.jpg");
+  --box-shadow: 6px 6px 10px rgba(0,0,0,.6);
+  --width: 100%;
+  --radius: 8px;
+  --font-size1: 16px;
+  --font-size2: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Outfit';
+  background-image: var(--gradient1), var(--url-img);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+form{
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.701);
+  margin: 70px auto;
+  padding: 30px 20px 40px;
+  text-align: center;
+  border-radius: var(--radius);
+  box-shadow: var(--box-shadow);
+  border: 1px solid rgba(255, 68, 0, 0.631);
+}
+.input{
+  display: block;
+  width: var(--width);
+  padding: 20px 5px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 68, 0, 0.631);
+  outline: none;
+  border-radius: var(--radius);
+}
+.form__title{
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: rgb(255, 68, 0);
+}
+.form__messsage{
+  max-width: var(--width);
+  min-width: var(--width);
+  max-height: 150px;
+  min-height: 150px;
+}
+.form__submit{
+  width: var(--width);
+  font-size: 18px;
+  background-image: var(--gradient1);
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: var(--radius);
+  color: rgb(255, 68, 0);
+  border: 1px solid rgba(255, 68, 0, 0.631);
+}
+.form__submit:hover{
+  width: var(--width);
+  font-size: 18px;
+  background-image: var(--gradient2);
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: white;
+  border-radius: var(--radius);
+  border: 1px solid rgba(255, 68, 0, 0.631);
+}
+@media screen and (max-width:780px){
+  body{
+    padding: 60px 0;
+  }
+  .form{
+    margin: 0px auto;
+  }
+}
+@media screen and (max-width:450px) {
+  body {
+    padding: 40px 0;
+  }
+
+  .form {
+    width: 90%;
+  }
+  .form__submit{
+    font-size: 40px;
+  }
+  .form__submit {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Righteous';
+  min-height: 200vh;
+
+}
+.hero{
+  height: 100vh;
+  background-image: linear-gradient(to right, #4facfeb3 0%, #00f1fea5 100%), url("../imagen/bg2.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 0.1px;
+  position: relative;
+}
+.container-text{
+  text-align: center;
+  margin-top: 200px;
+  color: rgb(255, 255, 0);
+}
+.hero__title{
+  font-size: 2rem;
+}
+.hero__copy{
+  font-size: 1rem;
+  font-weight: 50;
+  margin: 20px auto;
+}
+.hero__cta{
+  background-color: white;
+  text-decoration: none;
+  color: steelblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+.hero__wave{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+@media screen and (max-width:375px) {
+  .container-text {
+      text-align: center;
+      margin-top: 100px;
+      color: rgb(255, 255, 0);
+    }
+  .hero__title {
+      font-size: 1rem;
+  }
+  .hero__copy {
+    font-size: 0.5rem;
+    font-weight: 25;
+    margin: 20px auto;
+  }
+  .hero__cta {
+    background-color: white;
+    text-decoration: none;
+    color: steelblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 12px;
+  }
+}
