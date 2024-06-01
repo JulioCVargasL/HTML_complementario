@@ -4,13 +4,124 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
 :root{
   --OuterSpace: #1D2525;
   --Straw: #D5B682;
   --Gunsmoke: #8C9493;
   --Manatee: #8C8C94;
+  --white: white;
+  --nav-height: 60px;
+  --box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.5);
 }
 body{
   font-family: "Chakra Petch", sans-serif;
+  background: var(--Gunsmoke);
+  color: var(--OuterSpace);
+}
+section{
+  height: 100vh;
+}
+.logo{
+  margin-left:  20px;
+  color: var(--OuterSpace);
+  font-size: 1.4rem;
+  font-weight: 1000;
+}
+nav{
+  display: flex;
+}
+.contenedor{
+  width: 90%;
+  max-width: 1400px;
+  margin:  0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.menu{
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-height);
+  background: var(--Straw);
+  border-radius: 0px 0px 6px 6px;
+  box-shadow: var(--box-shadow);
+}
+.nav-contenedor{
+  align-items: center;
+  justify-content: flex-end;
+}
+.enlace{
+  color: var(--OuterSpace);
+  display: inline-flex;
+  line-height: var(--nav-height);
+  padding: 0 10px;
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+.enlace:hover{
+  height: 100%;
+  color: var(--Straw);
+  background: var(--OuterSpace);
+  
+}
+.principal{
+  height: calc(100vh - var(--nav-height));
+  align-items: center;
+  justify-content: space-between;
+}
+.contenedor-textos{
+  flex-basis: 45%;
+}
+.titulo{
+  font-size: 4rem;
+  font-weight: 900;
+}
+h1.titulo span{
+  color: var(--Straw);
+}
+.copy{
+  margin: 20px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.cta{
+  display: inline-block;
+  background: var(--OuterSpace);
+  color: var(--Straw);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+.ilustracion{
+  flex-basis: 45%;
+  font-weight: 300;
+}
+.img{
+  max-width: 700px;
+}
+
+/* Aqui empieza la segunda seccion */
+
+.nosotros-descripcion{
+  order: 2;
+  align-self: center;
+}
+.nosotros-imagen {
+  order: 0;
+  align-self: center;
+}
+.nosotros-imagen img{
+  max-width: 600px;
+}
+.bg{
+  background: var(--white);
+  border-radius: 10px;
+}
+.parrafo{
+  margin: 20px 0;
+  color: var(--OuterSpace);
 }
