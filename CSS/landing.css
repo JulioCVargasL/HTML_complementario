@@ -125,3 +125,27 @@ h1.titulo span{
   margin: 20px 0;
   color: var(--OuterSpace);
 }
+
+/* Aqui empieza la tercera seccion */
+
+.contacto{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fomulario-contacto{
+  display: flex;
+  width: 100%;
+  gap: 4px;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  border: solid 1px #f2f2f2;
+  outline: none;
+}
+.cajitas{
+  display: flex;
+  flex-direction: column;
+}
+  
