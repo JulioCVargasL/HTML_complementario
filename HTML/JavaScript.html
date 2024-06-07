@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS</title>
+</head>
+
+<body>
+  <script>
+    var curso = "html, css y js";
+    let personas  = "estudiando";
+    {
+      var curso = "JavaScript"
+      let personas = "Validando el ambito de bloque"
+
+    }
+    console.log("Fuera del bloque", curso)
+    console.log("Fuera del bloque", personas)
+    console.log(window.curso)
+    console.log(window.personas)
+    console.clear()
+    
+    // las variables se pueden declarar vacias y luego asignrles un valor 
+
+    let a;
+    a = "Estudiando"
+    console.log(a)
+
+    // las contantes deben inicializarse primero a diferenciaa de las variables que se les pueda dar un valor deseado luego 
+
+    const PI = 3.1416;
+
+    console.log(PI)
+   
+// Variable global con var pero va a ensuciar el codigo es mejor usar let trabaja en bloque, renombrar variables a let, JS moderno, retrocompatible usa VAR pero no es recomendable// una vez inicializadas no se pueden modificar
+
+    let jhon = "Jhon Becerra";
+    // una variable no puede iniciar con un numero una vez inicializada no deja reeplazar el valor somplemente volviendo a poner la variable con el mismo n0ombre
+    let _jhon = "John Becerra";
+    let $jhon = "John Becerra";
+    let edad = 32;
+    // JS es un lenguaje con tipado dinamico
+    edad = "No tengo edad";
+    edad = false
+    // El tipado dinamico tiene el problema de permitirnos poner una misma variable como un entero como un string o un booleano
+
+    const persona = {
+      nombre: "Julio Vargas",
+      edad: 32,
+      gustos: ["Videojuegos", "Arduino"]
+    }
+    
+    persona.sexo = "Masculino"
+    persona.nombre = "Cesar Lopez"
+
+    console.log(persona)
+
+    const dias = ["lunes","Martes","Miercoles"]
+    // Push nos sirve para poner info en los arreglos
+    dias.push("Jueves")
+    dias.push("Viernes")
+    dias.push("Sabado","Domingo")
+  
+    console.log(dias)
+
+    console.clear()
+
+    let palabra = "Lorem Julio ipsum dolor sit amet, consectetur adipisicing elit.Ea sint voluptate, cumque odio totam cupiditate eligendi beatae, ratione tenetur blanditiis tempora optio, ex ipsum.Qui sequi eum laboriosam omnis aperiam."
+
+    let otraCadena = "Julio-Cesar-Vargas-Lopez"
+
+    console.log(palabra.length)
+    console.log(palabra.toUpperCase())
+    console.log(palabra.toLowerCase())
+    console.log(palabra.includes("Julio"))
+
+    // devuelve True or False
+
+    console.log(palabra.split(" "))
+    // Convierte en arreglo y cuenta palabras 
+    console.log(otraCadena.split("-"))
+
+    console.clear()
+
+    let nombre = "Julio"
+    let apellido = "Vargas"
+
+    console.log("El nombre es ",nombre, " y su appellido es ",apellido)
+    console.log("El nombre es" + nombre + " y su appellido es " + apellido)
+
+    // Back tig ALT+96 muy Util y mas ordenado que hacer una concatenacion !
+
+    console.log(`El nombre es:${nombre} y su appellido es: ${apellido}` )
+
+    let ul = "<ul><li>Palabra 1</li><li>Palabra 2</li></ul>"
+
+    console.log(ul)
+
+    console.clear()
+    
+    let $a = 2;
+    let $b = new Number(1);
+    let $c = 7.19999;
+    let $d = "5.6";
+
+    // JS es orientado ha hacer prototipos, todo lo toma como una instancia de prototipo
+
+    console.log($a, $b)
+
+    console.log($a + $b)
+
+    console.log($c.toFixed(4))
+
+    // parseInt parsea el numero o toma el valor entero del numero
+
+    console.log(parseInt($c))
+
+    console.log(parseInt($d))
+
+    console.log(parseInt(a))
+
+    console.log(parseFloat($d))
+
+    console.log(typeof $a, typeof $b, typeof $c, typeof $d)
+
+    console.clear()
+
+    let falso = false
+    let verdadero = true
+
+    console.log(falso, verdadero)
+
+    let v = Boolean(true)
+    let f = Boolean(false)
+    let c = Boolean(0)
+
+    console.log(falso, verdadero, v, f, c)
+    console.log(Boolean(-7))
+    console.log(Boolean(""))
+    console.log(Boolean(1))
+
+    console.clear()
+
+    
+
+
+  </script>
+
+
+
+</body>
+
+</html>
