@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciclos</title>
+</head>
+<body>
+  <script>
+    let contador = 1
+
+    /** 
+     * realizamos la pregunta y luego ejecutamos el codigo
+     * **/
+
+    //  while (contador <= 9){
+    //   console.log(`La persona con el numero: ${contador}`)
+    //   ++contador
+    //  }
+
+    /**
+     * Se ejecuta el codigo y luego se realiza la pregunta
+     * **/
+
+    // let problemas = 9;
+
+    // do{
+    //   console.log(`Mi problema # ${problemas}`)
+    //   problemas++
+    // }while(problemas < 5 )
+
+    /**
+     * Ciclo FOR
+     * 
+     * 1 inicializador
+     * 2 condicion
+     * 3 incremento
+     * 
+     * **/
+
+    //  let personas = 9
+
+    //  for(i=1; i <= personas; i++){
+    //   if(i !=3){
+    //     console.log(`Me gane un caramelo ${i}`)
+    //   }
+    //   else{
+    //     console.log("Pos me salto el tercero")
+    //   }
+    //  }
+
+    /**
+     * FOR IN, sirve para recorrer objetos
+     * **/
+
+     const personas = {
+      nombre: "Julio",
+      apellido: "Vargas",
+      edad: 32
+     }
+     console.log(Object.keys(personas))
+     console.log(Object.values(personas))
+
+     for(const propiedad in personas){
+      console.log(`Llave ${propiedad}, el valor de la llave es: ${personas[propiedad]}`)
+     }
+     
+  </script>
+
+</body>
+</html>
