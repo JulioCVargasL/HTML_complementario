@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dates</title>
+</head>
+<body>
+  <script >
+    console.log(Date())
+    console.clear()
+
+    let fecha = new Date();
+    
+    console.log(fecha.getDate())
+    console.log(fecha.getDay())
+    console.log(fecha.getMonth())
+    
+    let nacimiento = new Date("1992, 4, 27")
+    console.log(new Date(nacimiento))
+    console.log(new Date(fecha))
+
+    console.log((fecha - nacimiento)/31557600000)
+
+    
+  </script>
+</body>
+</html>
+
+<!-- Promesas, sincronia, asinc, await, funcion asincrona serializar un archivo JSON,  -->
