@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temporizadores</title>
+</head>
+
+<body>
+  <script>
+    /**
+     * Temporizador:
+      * setTimeout(f, ms)	Ejecuta la  f cuando pasen  ms milisegundos.
+      * setInterval(f, ms)	Ejecuta la  f cada  ms milisegundos.
+      * requestAnimationFrame(f)	Versión optimizada de setTimeout() orientada a animaciones.
+        Finalizadores:
+      * clearTimeout(id)	Finaliza el temporizador setTimeout() con el  id indicado.
+      * clearInterval(id)	Finaliza el temporizador setInterval() con el  id indicado.
+      * cancelAnimationFrame(id)	Finaliza el temporizador requestAnimationFrame() con el id indicado.
+
+    **/
+    console.log("Ejecución 1");
+
+    function action() {
+      console.log("Ejecución 2");
+    }
+
+    setTimeout(action, 1000);
+  </script>
+</body>
+
+</html>
