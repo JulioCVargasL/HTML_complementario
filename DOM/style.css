@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block{
+  display: block;
+  border-radius: 12px;
+  width: 250px;
+  margin: 0 auto;
+}
+.box{
+  box-shadow: 15px 20px 30px black;
+}
