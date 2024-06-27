@@ -45,4 +45,4 @@ lista.forEach((elemento) => {
 );
 $root.appendChild($fragmanto)
 
-// Hacer este ejeccicio con etiqueta template
+// Hacer este ejercicio con etiqueta template$
