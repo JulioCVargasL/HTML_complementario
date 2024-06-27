@@ -39,6 +39,7 @@ lista.forEach((elemento) => {
   $div.appendChild($p)
 
   $div.classList.add('card')
+
   $fragmanto.appendChild($div)
 }
 );
