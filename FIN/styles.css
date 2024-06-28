@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(30, 28, 28);
+  color: aliceblue;
+  font-size: 20px;
+}
+form{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+input{
+  width: 350px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+
+}
+.contenedor{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+button{
+  display: flex;
+  background: yellow;
+  font-size: 24px;
+  align-items: center;
+  justify-items: center;
+  padding: 5px 8px;
+  border-radius:  0 4px 4px 0;
+  border: none;
+  cursor: pointer;
+}
