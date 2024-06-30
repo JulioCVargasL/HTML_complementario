@@ -2,7 +2,7 @@
   "users": [
   {
     "id": 1,
-    "name": "julio vargas",
+    "name": "julio",
     "intructor": false,
     "asignaciones": [
       2,
@@ -15,12 +15,12 @@
   },
   {
     "id": 2,
-    "name": "jonh becerra",
+    "name": "jonh",
     "instructor": true
   },
   {
     "id": 3,
-    "name": "daniel ojeda",
+    "name": "daniel",
     "instructor": false,
     "asignaciones": [
       1,
@@ -32,7 +32,7 @@
   },
   {
     "id": 4,
-    "name": "Donkan Alejandro",
+    "name": "donkan",
     "instructor": false,
     "asignaciones": [
       1,
@@ -43,7 +43,7 @@
   },
   {
     "id": 5,
-    "name": "Rafa",
+    "name": "rafa",
     "instructor": false,
     "asignaciones": []
 

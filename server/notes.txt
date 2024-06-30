@@ -1,3 +1,8 @@
 ponemos en el browswer http://127.0.0.1:3000/
 
 en git bash => $ npx json-server db.json
+
+Practicar en js como trabajar con fragmentos y como traer en el ejercicio de las asignaciones, las asignaciones de los usuarios empleando lso metodos 
+
+promise.all(ARRAY LIST)
+promise.allSettled(ARRAY LIST)
